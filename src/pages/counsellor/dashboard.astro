@@ -1,0 +1,121 @@
+---
+import Layout from "../../layouts/Layout.astro";
+---
+
+<Layout title="Counsellor - Dashboard">
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <small>Hello</small>
+      <h1>Hemanth</h1>
+    </div>
+  </div>
+
+  <div class="row mt-5">
+    <div class="col-sm-12 col-md-6">
+      <div class="card">
+        <div class="card-body">
+          <h2>Students</h2>
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="p-4 bg-light w-100 mx-1">
+              <p class="mb-0">12</p>
+              <small>Total Students</small>
+            </div>
+            <div class="p-4 bg-light w-100 mx-1">
+              <p class="mb-0">5</p>
+              <small>Admitted</small>
+            </div>
+            <div class="p-4 bg-light w-100 mx-1">
+              <p class="mb-0">41%</p>
+              <small>Admission ratio</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-12 col-md-6">
+      <div class="card">
+        <div class="card-body">
+          <h2>Applications</h2>
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="p-4 bg-light w-100 mx-1">
+              <p class="mb-0">12</p>
+              <small>Total Submitted</small>
+            </div>
+            <div class="p-4 bg-light w-100 mx-1">
+              <p class="mb-0">5</p>
+              <small>Approved</small>
+            </div>
+            <div class="p-4 bg-light w-100 mx-1">
+              <p class="mb-0">3</p>
+              <small>Pending</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row mt-5">
+    <div class="col">
+      <h5>Search</h5>
+      <div class="input-group mb-3">
+        <input type="text" class="form-control" placeholder="Application ID / Student Name" aria-label="Recipient's username" aria-describedby="basic-addon2">
+        <span class="input-group-text" id="basic-addon2">Search</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="row mt-5">
+    <div class="col">
+      <h5>Applications</h5>
+      <table class="table">
+        <thead class="table-dark">
+          <tr>
+            <th scope="col">Application ID</th>
+            <th scope="col">Student</th>
+            <th scope="col">University</th>
+            <th scope="col">Program</th>
+            <th scope="col">Application Status</th>
+            <th scope="col">Application Stage</th>
+            <th scope="col">Actions</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">125486</th>
+            <td>
+              <p class="mb-0">Ravi Teja</p>
+              <small>+91 9491444339</small> <br>
+              <small>raviteja@gmail.com</small>
+            </td>
+            <td>Andhra University</td>
+            <td>B.tech + M.tech dual degree</td>
+            <td>Processing</td>
+            <td>Preplacement offer</td>
+            <td>
+              <button class="btn btn-sm">Actions</button>
+            </td>
+          </tr>
+
+          <tr>
+            <th scope="row">1245896</th>
+            <td>
+              <p class="mb-0">Hemanth</p>
+              <small>+91 9491444339</small> <br>
+              <small>raviteja@gmail.com</small>
+            </td>
+            <td>Andhra University</td>
+            <td>B.tech + M.tech dual degree</td>
+            <td>Processing</td>
+            <td>Preplacement offer</td>
+            <td>
+              <button class="btn btn-sm">Actions</button>
+            </td>
+          </tr>
+        </tbody>
+      </table>  
+    </div>
+  </div>
+</div>
+</Layout>
