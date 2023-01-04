@@ -1,0 +1,161 @@
+---
+import Layout from "../../../layouts/Layout.astro";
+---
+
+<Layout title="Learnovate">
+<div class="container">
+  
+  <div class="container mt-5" id="register">
+    <div class="row">
+      <div class="col-sm-12 col-md-6 mx-auto">
+        <div class="p-3">
+          <h5 class="">NOTE: Please fill all your basic information carefullly as you can not change/update this information later.</h5>
+        </div>
+        <form class="mt-3">
+          <div class="mb-3">
+            <input
+              type="text"
+              name="fname"
+              class="form-control p-2 ps-4 rounded-5 "
+              style=""
+              id="fname"
+              placeholder="First Name"
+              required
+            />
+          </div>
+
+          <div class="mb-3">
+            <input
+              type="text"
+              name="mname"
+              class="form-control p-2 ps-4 rounded-5"
+              id="mname"
+              placeholder="Middle Name"
+              required
+            />
+          </div>
+          <div class="mb-3">
+            <input
+              type="text"
+              name="lname"
+              class="form-control p-2 ps-4 rounded-5"
+              id="lname"
+              placeholder="Last Name"
+              required
+            />
+          </div>
+
+          <div class="input-group mb-3">
+            <select
+              class="form-select p-2 ps-4 rounded-5"
+              id="country"
+              aria-label="Example select with button addon"
+            >
+              <option selected>Country</option>
+              <option value="1">Africa</option>
+              <option value="2">--</option>
+              <option value="3">Other</option>
+            </select>
+          </div>
+
+          <div class="input-group mb-3">
+            <select
+              class="form-select p-2 ps-4 rounded-5"
+              id="country-code"
+              aria-label="Example select with button addon"
+            >
+              <option selected>Country code</option>
+              <option value="1">+83</option>
+              <option value="2">----</option>
+              <option value="3">Other</option>
+            </select>
+          </div>
+
+          <div class="mb-3">
+            <input
+              type="text"
+              name="lname"
+              class="form-control p-2 ps-4 rounded-5"
+              id="number"
+              placeholder="Your WhatsApp Number"
+              required
+            />
+          </div>
+          
+          <div class="input-group mb-3">
+            <input
+              type="text"
+              class="form-control p-2 ps-4 rounded-5"
+              placeholder="Email"
+              id="email"
+              aria-label="Email"
+              aria-describedby="basic-addon1"
+              required
+            />
+          </div>
+
+          <div class="input-group mb-3">
+            <input
+              type="text"
+              class="form-control p-2 ps-4 rounded-5"
+              placeholder="Enter Confirm Email"
+              id="email"
+              aria-label="Email"
+              aria-describedby="basic-addon1"
+              required
+            />
+          </div>
+
+        
+          <div class="mb-3 ">
+            <input
+              type="text"
+              name="password"
+              class="form-control p-2 ps-4 rounded-5"
+              id="password"
+              placeholder="Enter Password"
+              required
+            />
+          </div>
+
+          <div class="mb-3 ">
+            <input
+              type="text"
+              name="cpassword"
+              class="form-control p-2 ps-4 rounded-5"
+              id="cpassword"
+              placeholder="Enter Confirm Password"
+              required
+            />
+          </div>
+
+          <div class="my-4">
+            <div class="form-check mb-3">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                <label class="form-check-label" for="flexCheckDefault">
+                    I would like to receive updates, reminders and notifications about Study in India programme on my WhatsApp contact number.
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" >
+                <label class="form-check-label" for="flexCheckChecked">
+                    I accept the terms of <a href="#" class="text-decoration-none">privacy policy</a> and would like to receive further updates about Study in India programme.
+                </label>
+              </div>
+          </div>
+
+          <div class="w-50 mb-4">
+            <button type="button" class="btn btn-primary rounded-5 fs-5 px-5">Register</button>
+          </div>
+
+        </form>
+
+        <div class="mb-4 ">
+            <p>Already have an account? <a href="#" class="text-decoration-none">Login</a></p>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+</Layout>
