@@ -10,8 +10,7 @@ import Layout from "../../layouts/Layout.astro";
         <p>
           <span class="badge bg-dark">NAAC A</span>
           <span class="badge bg-dark">ISO 9001:2015</span>
-        </p> 
-      
+        </p>       
       <div>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, et earum omnis ipsum odit, eveniet, esse reiciendis at nemo doloribus maiores provident adipisci quaerat minus sapiente voluptas! Dolorem, dicta suscipit? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae deserunt cupiditate, ullam ut exercitationem perspiciatis, modi et adipisci laudantium eligendi voluptatum accusamus odit. Excepturi doloremque optio veniam illo. Provident, neque?
       </div>
@@ -21,7 +20,7 @@ import Layout from "../../layouts/Layout.astro";
           <h5>Course Details</h5>
           <table class="table">
             <thead class="table-dark">
-              <tr>
+              <tr class="text-center">
                 <th scope="col">
                   <div class="dropdown show">
                     <a class="btn btn-dark dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -53,10 +52,13 @@ import Layout from "../../layouts/Layout.astro";
                 <th scope="col" class="pb-3">Minor Specialization</th>
                 <th scope="col" class="pb-3">Duration</th>
                 <th scope="col" class="pb-3">Intake Count</th>
+                <th scope="col" class="pb-3">Course Fee</th>
+                <th scope="col" class="pb-3">Processing Fee</th>
+                <th scope="col" class="pb-3">Hostel Fee</th>
               </tr>
             </thead>
             <tbody>
-              <tr>
+              <tr class="text-center">
                 <td scope="row">Engineering</td>
                 <td>
                   <p class="mb-0">PG</p>
@@ -66,9 +68,12 @@ import Layout from "../../layouts/Layout.astro";
                 <td>Algorithms course</td>
                 <td>2 Years</td>
                 <td>2</td>
+                <td>5,00,000</td>
+                <td>2</td>
+                <td>65,000</td>
               </tr>
 
-              <tr>
+              <tr class="text-center">
                 <td scope="row">Engineering</td>
                 <td>
                   <p class="mb-0">PG</p>
@@ -78,6 +83,9 @@ import Layout from "../../layouts/Layout.astro";
                 <td>Algorithms course</td>
                 <td>2 Years</td>
                 <td>2</td>
+                <td>5,00,000</td>
+                <td>2</td>
+                <td>65,000</td>
               </tr>
     
             </tbody>
@@ -85,7 +93,7 @@ import Layout from "../../layouts/Layout.astro";
         </div>
       </div>
 
-      <!-- <div class="mt-5">
+      <div class="mt-5">
         <h3>Programs</h3>
         <div class="card mb-4">
           <div class="card-body">
@@ -95,16 +103,54 @@ import Layout from "../../layouts/Layout.astro";
 
             <div class="d-flex justify-content-between align-items-center">
               <div class="p-4 bg-light w-100 mx-1">
-                <p class="mb-0">1 year</p>
-                <small>Duration</small>
+                <div class="mb-4">
+                  <h6 class="mb-0">5,00,000</h6>
+                  <h6>Course Fee</h6>
+                </div>
+                <div class="mb-4">
+                  <p class="mb-0">5,00,000</p>
+                  <small>Scholarship</small>
+                </div>
+                <div class="mb-4">
+                  <p class="mb-0">5,00,000</p>
+                  <small>Breakdown</small>
+                </div>
+                <div>
+                  <p class="mb-0">5,00,000</p>
+                  <small>Inclusions</small>
+                </div>
               </div>
               <div class="p-4 bg-light w-100 mx-1">
-                <p class="mb-0">5,00,000</p>
-                <small>Fee/Year</small>
+                <div class="mb-4">
+                  <h6 class="mb-0">65,000</h6>
+                  <h6>Processing Fee</h6>
+                </div>
+                <div class="mb-4">
+                  <p class="mb-0">5,00,000</p>
+                  <small>Breakdown</small>
+                </div>
+                <div>
+                  <p class="mb-0">5,00,000</p>
+                  <small>Inclusions</small>
+                </div>
               </div>
               <div class="p-4 bg-light w-100 mx-1">
-                <p class="mb-0">32/60</p>
-                <small>Seats Available</small>
+                <div>
+                  <h6 class="mb-0">50,000</h6>
+                  <h6>Hostel Fee</h6>
+                </div>
+                <div class="mb-4">
+                  <p class="mb-0">5,00,000</p>
+                  <small>Scholarship</small>
+                </div>
+                <div class="mb-4">
+                  <p class="mb-0">5,00,000</p>
+                  <small>Breakdown</small>
+                </div>
+                <div>
+                  <p class="mb-0">5,00,000</p>
+                  <small>Inclusions</small>
+                </div>
               </div>
             </div>
           </div>
@@ -113,28 +159,68 @@ import Layout from "../../layouts/Layout.astro";
         <div class="card mb-4">
           <div class="card-body">
             <h5>B.Tech + M.Tech Dual degres</h5>
-            <small class="badge bg-darkose">PhD Program</small>
+            <small class="badge bg-warning">PG Program</small>
             <p>Program details. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum ut amet neque ratione voluptatum, doloremque culpa nihil, labore a aut vel dolorem animi ipsa magni corporis quas. Nostrum, debitis commodi!</p>
 
             <div class="d-flex justify-content-between align-items-center">
               <div class="p-4 bg-light w-100 mx-1">
-                <p class="mb-0">1 year</p>
-                <small>Duration</small>
+                <div class="mb-4">
+                  <h6 class="mb-0">5,00,000</h6>
+                  <h6>Course Fee</h6>
+                </div>
+                <div class="mb-4">
+                  <p class="mb-0">5,00,000</p>
+                  <small>Scholarship</small>
+                </div>
+                <div class="mb-4">
+                  <p class="mb-0">5,00,000</p>
+                  <small>Breakdown</small>
+                </div>
+                <div>
+                  <p class="mb-0">5,00,000</p>
+                  <small>Inclusions</small>
+                </div>
               </div>
               <div class="p-4 bg-light w-100 mx-1">
-                <p class="mb-0">5,00,000</p>
-                <small>Fee/Year</small>
+                <div class="mb-4">
+                  <h6 class="mb-0">65,000</h6>
+                  <h6>Processing Fee</h6>
+                </div>
+                <div class="mb-4">
+                  <p class="mb-0">5,00,000</p>
+                  <small>Breakdown</small>
+                </div>
+                <div>
+                  <p class="mb-0">5,00,000</p>
+                  <small>Inclusions</small>
+                </div>
               </div>
               <div class="p-4 bg-light w-100 mx-1">
-                <p class="mb-0">32/60</p>
-                <small>Seats Available</small>
+                <div>
+                  <h6 class="mb-0">50,000</h6>
+                  <h6>Hostel Fee</h6>
+                </div>
+                <div class="mb-4">
+                  <p class="mb-0">5,00,000</p>
+                  <small>Scholarship</small>
+                </div>
+                <div class="mb-4">
+                  <p class="mb-0">5,00,000</p>
+                  <small>Breakdown</small>
+                </div>
+                <div>
+                  <p class="mb-0">5,00,000</p>
+                  <small>Inclusions</small>
+                </div>
               </div>
             </div>
           </div>
         </div>
+        
+
       </div>
 
-      <div class="mt-5">
+      <!-- <div class="mt-5">
         <h3>Scholarships</h3>
         <div class="card mb-4">
           <div class="card-body">
